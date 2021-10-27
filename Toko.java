@@ -13,7 +13,7 @@ public class Toko {
     private boolean Statusdropshipper;
     private double Nominalasuransi;
 
-    //Asuransi dan Dropship
+    //Asuransi dan Dropship\\
    Toko(int Notransaksi, String Noresi, String Namaekspedisi, double Ongkir, String Namapengirim, String Alamatpengirim, String Namapenerima, String Alamatpenerima, boolean Statusdropshipper, boolean Statusasuransi, int Nominalasuransi){
         this.Notransaksi = Notransaksi;
         this.Noresi = Noresi;
@@ -29,7 +29,7 @@ public class Toko {
         print(this.Statusasuransi, this.Statusdropshipper);
     }
 
-    //Asuransi
+    //Asuransi\\
     Toko(int Notransaksi, String Noresi, String Namaekspedisi, double Ongkir, String Namapengirim, String Alamatpengirim, String Namapenerima, String Alamatpenerima, boolean Statusasuransi, int Nominalasuransi){
         this.Notransaksi = Notransaksi;
         this.Noresi = Noresi;
@@ -47,7 +47,7 @@ public class Toko {
         print(this.Statusasuransi, this.Statusdropshipper);
     }
 
-    //Normal
+    //Normal\\
     Toko(int Notransaksi, String Noresi, String Namaekspedisi, double Ongkir, String Namapengirim, String Alamatpengirim, String Namapenerima, String Alamatpenerima){
         this.Notransaksi = Notransaksi;
         this.Noresi = Noresi;
@@ -60,7 +60,7 @@ public class Toko {
         print(this.Statusasuransi, this.Statusdropshipper);
     }
 
-    //Dropship
+    //Dropship\\
 Toko(int Notransaksi, String Noresi, String Namaekspedisi, double Ongkir, String Namapengirim, String Alamatpengirim, String Namapenerima, String Alamatpenerima, boolean Statusdropshipper){
         this.Notransaksi = Notransaksi;
         this.Noresi = Noresi;
